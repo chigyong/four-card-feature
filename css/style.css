@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+header span {
+  font-weight: 200;
+}
+header h1 {
+  font-weight: 600;
+}
+header p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card h3 {
+  margin: 1rem;
+}
+.card p {
+  margin: 1rem;
+}
+.card img {
+  width: 50px;
+  height: 50px;
+  margin: 50px 10px 10px 300px;
+}
+.card .supervisor {
+  background-color: white;
+  margin: 10rem 0 0 10rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  box-shadow: inset;
+}
+.card .supervisor .line-supervisor {
+  background-color: hsl(180deg, 62%, 55%);
+  padding: 2px;
+}
+.card .middle-card {
+  margin: 1rem 0 0 4rem;
+}
+.card .middle-card .team-builder {
+  background-color: white;
+  margin: 1rem 0 2rem 1rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.card .middle-card .team-builder .line-team {
+  background-color: hsl(0deg, 78%, 62%);
+  padding: 2px;
+}
+.card .middle-card .karma {
+  background-color: white;
+  margin: 1rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.card .middle-card .karma .line-karma {
+  background-color: hsl(34deg, 97%, 64%);
+  padding: 2px;
+}
+.card .calculator {
+  background-color: white;
+  margin: 10rem 0 0 0;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.card .calculator .line-calculator {
+  background-color: hsl(212deg, 86%, 64%);
+  padding: 2px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card .supervisor {
+    margin: 1rem 0 0 5rem;
+  }
+  .card .calculator {
+    margin: 1rem 0 0 5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card .supervisor {
+    margin: 1rem 0 0 5rem;
+  }
+  .card .calculator {
+    margin: 1rem 0 0 5rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  header {
+    margin: 3rem 0 2rem 4rem;
+  }
+  header span {
+    font-weight: 200;
+  }
+  header h1 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  header p {
+    font-size: 15px;
+    font-weight: 200;
+  }
+}/*# sourceMappingURL=style.css.map */
